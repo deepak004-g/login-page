@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const password = document.getElementById("password");
 
   form.addEventListener("submit", (e) => {
-    e.preventDefault(); // stop page reload
+    e.preventDefault(); 
 
     if (username.value.trim() === "" || password.value.trim() === "") {
       alert("Please enter both username and password.");
